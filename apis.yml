@@ -1,0 +1,7 @@
+aid: cintas
+url: https://raw.githubusercontent.com/api-evangelist/cintas/refs/heads/main/apis.yml
+modified: '2026-03-21'
+apis: []
+common:
+  - type: Website
+    url: https://www.cintas.com
