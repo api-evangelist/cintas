@@ -1,7 +1,12 @@
 aid: cintas
-url: https://raw.githubusercontent.com/api-evangelist/cintas/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/cintas/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.cintas.com
+description: >-
+  Even at your busiest, you can open your doors with confidence knowing Cintas has
+  you covered with a wide range of products and services that enhance your image and
+  help keep your facility and employees clean, safe and looking their best.
