@@ -33,9 +33,9 @@ common:
     url: https://investors.cintas.com
   - type: Careers
     url: https://careers.cintas.com
-  - type: Privacy Policy
+  - type: PrivacyPolicy
     url: https://www.cintas.com/privacy-policy
-  - type: Terms of Service
+  - type: TermsOfService
     url: https://www.cintas.com/terms-of-use
   - type: Support
     url: https://www.cintas.com/contact-us
