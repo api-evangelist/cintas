@@ -23,6 +23,8 @@ description: >-
   Connect program, and account-managed EDI relationships.
 apis: []
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/cintas
   - type: Website
     url: https://www.cintas.com
   - type: Customer Portal (myCintas)
