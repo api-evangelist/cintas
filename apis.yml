@@ -23,6 +23,8 @@ description: >-
   Connect program, and account-managed EDI relationships.
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/cintas-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/cintas
   - type: Website
