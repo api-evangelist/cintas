@@ -35,7 +35,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cintas.png
 access: 3rd-Party
 created: '2026-03-21'
 modified: '2026-04-23'
-position: Consumer
+position: Consuming
 description: >-
   Cintas Corporation is a Fortune 500 provider of uniform rental, facility
   services, first aid and safety products, and fire protection services.
