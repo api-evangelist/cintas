@@ -1,0 +1,606 @@
+generated: '2026-09-05'
+method: probed
+source: 'live probe 2026-09-05 of every host the record knows: cintas.com + www, mycintas.com + www, shop.mycintas.com,
+  store.cintas.com, careers.cintas.com'
+summary:
+  hosts_probed: 7
+  paths_per_host: 15
+  documents_served: 0
+  note: 'Cintas serves no /.well-known/ discovery document, no /apis.json or /apis.yml, and no /llms.txt on any
+    host it operates. cintas.com, www.cintas.com, mycintas.com, www.mycintas.com, shop.mycintas.com and store.cintas.com
+    return a real 404 for every probed path, including the negative control. careers.cintas.com (the hosted recruiting
+    site) answers 200 with an HTML page for every path including the negative control, so its 200s are path-echoes,
+    not documents. NO WellKnown and NO SecurityTxt pointer is emitted: this file records a measured absence, not
+    a presence.'
+hosts:
+- host: https://www.cintas.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/api-catalog.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /apis.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /apis.yml
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  negative_control:
+    path: /.well-known/cintas-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 2837
+    content_type: text/html
+  path_echo_control: passed
+  hit_count: 0
+- host: https://cintas.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/api-catalog.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /apis.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /apis.yml
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 2837
+  negative_control:
+    path: /.well-known/cintas-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 2837
+    content_type: text/html
+  path_echo_control: passed
+  hit_count: 0
+- host: https://www.mycintas.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 1245
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 1245
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 1245
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 1245
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 1245
+  - path: /.well-known/api-catalog.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 1245
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 1245
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 1245
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 1245
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 1245
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 1245
+  - path: /apis.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 1245
+  - path: /apis.yml
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 1245
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 1245
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+    content_type: text/html
+    bytes: 1245
+  negative_control:
+    path: /.well-known/cintas-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 1245
+    content_type: text/html
+  path_echo_control: passed
+  hit_count: 0
+- host: https://mycintas.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+    content_type: text/html; charset=us-ascii
+    bytes: 315
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+    content_type: text/html; charset=us-ascii
+    bytes: 315
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+    content_type: text/html; charset=us-ascii
+    bytes: 315
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+    content_type: text/html; charset=us-ascii
+    bytes: 315
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+    content_type: text/html; charset=us-ascii
+    bytes: 315
+  - path: /.well-known/api-catalog.json
+    status: 404
+    file: null
+    content_type: text/html; charset=us-ascii
+    bytes: 315
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+    content_type: text/html; charset=us-ascii
+    bytes: 315
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+    content_type: text/html; charset=us-ascii
+    bytes: 315
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+    content_type: text/html; charset=us-ascii
+    bytes: 315
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+    content_type: text/html; charset=us-ascii
+    bytes: 315
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+    content_type: text/html; charset=us-ascii
+    bytes: 315
+  - path: /apis.json
+    status: 404
+    file: null
+    content_type: text/html; charset=us-ascii
+    bytes: 315
+  - path: /apis.yml
+    status: 404
+    file: null
+    content_type: text/html; charset=us-ascii
+    bytes: 315
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+    content_type: text/html; charset=us-ascii
+    bytes: 315
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+    content_type: text/html; charset=us-ascii
+    bytes: 315
+  negative_control:
+    path: /.well-known/cintas-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 315
+    content_type: text/html; charset=us-ascii
+  path_echo_control: passed
+  hit_count: 0
+- host: https://store.cintas.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+    content_type: text/html;charset=utf-8
+    bytes: 683
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+    content_type: text/html;charset=utf-8
+    bytes: 683
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+    content_type: text/html;charset=utf-8
+    bytes: 683
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+    content_type: text/html;charset=utf-8
+    bytes: 683
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+    content_type: text/html;charset=utf-8
+    bytes: 683
+  - path: /.well-known/api-catalog.json
+    status: 404
+    file: null
+    content_type: text/html;charset=utf-8
+    bytes: 683
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+    content_type: text/html;charset=utf-8
+    bytes: 683
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+    content_type: text/html;charset=utf-8
+    bytes: 683
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+    content_type: text/html;charset=utf-8
+    bytes: 683
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+    content_type: text/html;charset=utf-8
+    bytes: 683
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+    content_type: text/html;charset=utf-8
+    bytes: 683
+  - path: /apis.json
+    status: 404
+    file: null
+    content_type: text/html;charset=utf-8
+    bytes: 683
+  - path: /apis.yml
+    status: 404
+    file: null
+    content_type: text/html;charset=utf-8
+    bytes: 683
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+    content_type: text/html;charset=utf-8
+    bytes: 683
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+    content_type: text/html;charset=utf-8
+    bytes: 683
+  negative_control:
+    path: /.well-known/cintas-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 683
+    content_type: text/html;charset=utf-8
+  path_echo_control: passed
+  hit_count: 0
+- host: https://careers.cintas.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 53169
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 53169
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 53169
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 53169
+  - path: /.well-known/api-catalog
+    status: 200
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 53168
+  - path: /.well-known/api-catalog.json
+    status: 200
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 53168
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 53168
+  - path: /.well-known/ucp.json
+    status: 200
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 53168
+  - path: /.well-known/acp.json
+    status: 200
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 53168
+  - path: /.well-known/aauth-resource.json
+    status: 200
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 53168
+  - path: /.well-known/apis.json
+    status: 200
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 53168
+  - path: /apis.json
+    status: 200
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 136170
+  - path: /apis.yml
+    status: 200
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 136164
+  - path: /.well-known/agent-card.json
+    status: 200
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 53168
+  - path: /.well-known/agent.json
+    status: 200
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 53168
+  negative_control:
+    path: /.well-known/cintas-negative-control-7f3ab91c.json
+    status: 200
+    bytes: 53168
+    content_type: text/html;charset=UTF-8
+  path_echo_control: failed
+  hit_count: 0
+  note: 'Catch-all host: every /.well-known/* path AND a random path that cannot exist return HTTP 200 with the
+    same text/html recruiting page. Every 200 on this host is discarded per the negative-control rule; no document
+    was fetched or saved.'
+- host: https://shop.mycintas.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 3245
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 3245
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 3245
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 3245
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 3245
+  - path: /.well-known/api-catalog.json
+    status: 404
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 3245
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 3245
+  - path: /.well-known/ucp.json
+    status: 404
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 3245
+  - path: /.well-known/acp.json
+    status: 404
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 3245
+  - path: /.well-known/aauth-resource.json
+    status: 404
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 3245
+  - path: /.well-known/apis.json
+    status: 404
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 3245
+  - path: /apis.json
+    status: 404
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 3245
+  - path: /apis.yml
+    status: 404
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 3245
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 3245
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+    content_type: text/html;charset=UTF-8
+    bytes: 3245
+  negative_control:
+    path: /.well-known/cintas-negative-control-7f3ab91c.json
+    status: 404
+    bytes: 3245
+    content_type: text/html;charset=UTF-8
+  path_echo_control: passed
+  hit_count: 0

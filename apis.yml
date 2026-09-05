@@ -34,7 +34,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cintas.png
 access: 3rd-Party
 created: '2026-03-21'
-modified: '2026-04-23'
+modified: '2026-09-05'
 position: Consuming
 description: >-
   Cintas Corporation is a Fortune 500 provider of uniform rental, facility
@@ -50,22 +50,50 @@ common:
   - type: LinkedIn
     url: https://www.linkedin.com/company/cintas
   - type: Website
-    url: https://www.cintas.com
+    url: https://www.cintas.com/
   - type: Customer Portal (myCintas)
-    url: https://www.mycintas.com
+    url: https://www.mycintas.com/
   - type: Online Store
-    url: https://www.cintas.com/store
+    url: https://store.cintas.com/site/
   - type: Investor Relations
-    url: https://investors.cintas.com
+    url: https://www.cintas.com/investors/
   - type: Careers
-    url: https://careers.cintas.com
+    url: https://careers.cintas.com/
   - type: PrivacyPolicy
-    url: https://www.cintas.com/privacy-policy
+    url: https://www.cintas.com/privacy/
   - type: TermsOfService
-    url: https://www.cintas.com/terms-of-use
+    url: https://www.cintas.com/legal/
   - type: Support
-    url: https://www.cintas.com/contact-us
+    url: https://www.cintas.com/contact-us/
+  - type: Blog
+    url: https://www.cintas.com/about/newsroom/
+  - type: LLMsTxt
+    url: llms/cintas-llms.txt
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
 specificationVersion: '0.23'
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v3
+x-coverage:
+  state: gated
+  reason: customer-only-docs
+  detail: >-
+    Cintas' own 10,733-URL sitemap contains no developer, API, EDI or integration page at all —
+    the only machine-integration door is X12 EDI trading-partner onboarding (850/855/856/810/997)
+    arranged through a Cintas account team and documented publicly only by third-party VANs, while
+    the myCintas portal is a customer sign-in wall, so the contract is reachable only with a signed
+    Cintas account agreement.
+  evidence:
+    - url: https://www.cintas.com/sitemap/sitemap.xml
+      status: 200
+    - url: https://www.mycintas.com/
+      status: 200
+    - url: https://www.cintas.com/openapi.json
+      status: 404
+    - url: https://www.cintas.com/.well-known/security.txt
+      status: 404
+  checked: '2026-09-05'
