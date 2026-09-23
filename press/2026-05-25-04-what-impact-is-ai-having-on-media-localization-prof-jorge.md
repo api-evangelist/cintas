@@ -1,7 +1,9 @@
 ---
 title: What impact is AI having on media localization? (Prof. Jorge ...
 url: https://www.youtube.com/watch?v=vDcr-QlT3rA
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Cintas" press release artificial intelligence'
 position: 4
 source: serpapi-google

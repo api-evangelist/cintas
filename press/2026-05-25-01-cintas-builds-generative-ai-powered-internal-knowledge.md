@@ -1,7 +1,9 @@
 ---
 title: Cintas Builds Generative AI-Powered Internal Knowledge ...
 url: https://www.prnewswire.com/news-releases/cintas-builds-generative-ai-powered-internal-knowledge-center-with-google-cloud-302111348.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Cintas" press release artificial intelligence'
 position: 1
 source: serpapi-google

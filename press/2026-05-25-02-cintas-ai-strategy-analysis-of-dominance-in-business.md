@@ -1,7 +1,9 @@
 ---
 title: 'Cintas'' AI Strategy: Analysis of Dominance in Business ...'
 url: https://www.klover.ai/cintas-ai-strategy-analysis-of-dominance-in-business-services-ai/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Cintas" press release artificial intelligence'
 position: 2
 source: serpapi-google
